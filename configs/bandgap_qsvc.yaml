@@ -1,0 +1,9 @@
+seed: 42
+max_molecules: null       # use all available rows
+num_features: 4           # smaller angle vector for ZZFeatureMap
+reps: 1                   # shallow feature map to reduce variance
+entanglement: linear
+outer_folds: 3            # stable with limited data
+alpha: 0.1                # default; tuned per-fold
+kernel: "rbf"
+
